@@ -4,7 +4,7 @@ const PrettierPlugin = require("prettier-webpack-plugin");
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 const WebpackErrorReporting = require('bc-webpack-error-reporting-plugin');
-const CopyPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -35,6 +35,10 @@ module.exports = {
             options: { name: '[name].[ext]' }
           }
         }, //for images
+        {
+            test: /\.html$/i,
+            use: { loader: 'html-loader', options: {attributes: false} }
+        },
         { test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/, use: ['file-loader'] } //for fonts
     ]
   },
@@ -68,9 +72,9 @@ module.exports = {
             Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new CopyPlugin([
-                { from: '*.html', to: 'dist' },
-                { from: '*.html', to: 'public' },
-        ])
+        new HtmlWebpackPlugin({
+            filename: "index.html",
+            template: "src/index.html"
+        })
   ]
 };
