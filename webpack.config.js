@@ -4,12 +4,11 @@ const PrettierPlugin = require("prettier-webpack-plugin");
 const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 const ErrorOverlayPlugin = require('error-overlay-webpack-plugin');
 const WebpackErrorReporting = require('bc-webpack-error-reporting-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: [
-    './src/js/index.js'
-  ],
+  entry: ['./src/js/index.js'],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public/')
@@ -69,5 +68,9 @@ module.exports = {
             Dropdown: "exports-loader?Dropdown!bootstrap/js/dist/dropdown"
         }),
         new webpack.HotModuleReplacementPlugin(),
+        new CopyPlugin([
+                { from: '*.html', to: 'dist' },
+                { from: '*.html', to: 'public' },
+        ])
   ]
 };
