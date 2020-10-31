@@ -4,7 +4,7 @@
   "description": "Professional Boilerplate for Vanilla.js Web Apps",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config webpack.config.js",
+    "start": "webpack-dev-server --mode development --port 3000 --public $(gp url 3000)",
     "build": "webpack --mode development --verbose --colors --display-error-details",
     "deploy": "node deploy-to-github.js"
   },
