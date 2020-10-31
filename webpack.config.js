@@ -8,10 +8,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
-  entry: ['./src/js/index.js'],
+  entry: './src/main.js',
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'public/')
+    path: path.resolve(__dirname, 'public'),
+    filename: 'main.bundle.js',
+    sourceMapFilename: '[name].js.map'
   },
   module: {
     rules: [
