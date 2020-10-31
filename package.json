@@ -22,9 +22,6 @@
   "babel": {
     "presets": [
       "@babel/preset-env"
-    ],
-    "plugins": [
-      "@babel/plugin-proposal-class-properties"
     ]
   },
   "author": "Alejandro Sanchez",
@@ -41,11 +38,9 @@
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
-    "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
-    "babel-plugin-transform-class-properties": "^6.24.1",
     "bc-console": "0.0.2",
     "bc-webpack-error-reporting-plugin": "0.0.2",
     "css-loader": "^3.5.1",
