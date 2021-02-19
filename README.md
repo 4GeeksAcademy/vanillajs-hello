@@ -18,7 +18,7 @@ Build the application for the first time...
 $ npm run start
 ```
 
-And start coding your Vanilla.js application, update the `src/index.html`, `src/index.scss` or `src/index.js` depending on your needs.
+And start coding your Vanilla.js application, update the `src/index.html`, `src/index.css` or `src/app.js` depending on your needs.
 
 ## FAQ
 
@@ -27,7 +27,7 @@ And start coding your Vanilla.js application, update the `src/index.html`, `src/
 - Type on the command line `$ npm run start` and type localhost on the browser.
 
 #### 2) Where do I write my code?
-It depends on the language, but you have `./src/js/index.js`, `./src/style/index.scss` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
+It depends on the language, but you have `./src/js/app.js`, `./src/style/index.css` and `./isrc/index.html` respectively, you can add new `.html` as you please, just make sure to include import it on the index.js.
 
 __Note:__ remember that the JS workflow starts inside `window.onload`.
 
