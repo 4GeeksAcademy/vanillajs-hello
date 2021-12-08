@@ -7,3 +7,7 @@ ports:
   - port: 3000
     onOpen: open-preview
     visibility: public
+
+vscode:
+  extensions:
+    - esbenp.prettier-vscode
