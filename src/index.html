@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -11,19 +10,43 @@
       crossorigin="anonymous"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
+    <script>
+      function generarExcusa() {
+        let who = ["The dog", "My grandma", "His turtle", "My bird", "My cat"];
+        let action = ["ate", "peed", "crushed", "broke"];
+        let what = [
+          "my homework",
+          "the keys",
+          "the car",
+          "the food",
+          "the book"
+        ];
+        let when = [
+          "before the class",
+          "right in time",
+          "when I finished",
+          "during my lunch",
+          "while I was praying"
+        ];
+
+        let whoIndex = [Math.floor(Math.random() * who.length)];
+        let actionIndex = [Math.floor(Math.random() * action.length)];
+        let whatIndex = [Math.floor(Math.random() * what.length)];
+        let whenIndex = [Math.floor(Math.random() * when.length)];
+
+        alert(
+          who[whoIndex] +
+            " " +
+            action[actionIndex] +
+            " " +
+            what[whatIndex] +
+            " " +
+            when[whenIndex]
+        );
+      }
+    </script>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
-    </div>
+    <button onclick="generarExcusa()">Generar excusa!</button>
   </body>
 </html>
