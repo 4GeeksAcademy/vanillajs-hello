@@ -21,7 +21,7 @@
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
 				"workbench.editorAssociations": {   
-					"*.md": "vscode.markdown.preview.editor",
+					"*.md": "vscode.markdown.preview.editor"
 				}
 			},
 			"extensions": [ "esbenp.prettier-vscode" ]
