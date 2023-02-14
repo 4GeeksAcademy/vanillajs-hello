@@ -74,8 +74,8 @@ module.exports = {
         filename: "index.html",
         template: "src/index.html"
     }),
-    new PrettierPlugin({
-        failSilently: true
-    }),
+    // new PrettierPlugin({
+    //    failSilently: true
+    // }),
   ]
 };
