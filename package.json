@@ -4,7 +4,7 @@
   "description": "Professional Boilerplate for Vanilla.js Web Apps",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --mode development --port 3000",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server --mode development --port 3000 --open",
     "build": "webpack --mode development --verbose --colors --display-error-details",
     "deploy": "node deploy-to-github.js"
   },
