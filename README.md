@@ -1,14 +1,12 @@
 # Hello World with Vanilla JS
 
-Start coding a JS/HTML/CSS website in 30 seconds by opening this template in [Codespaces](https://github.com/codespaces/new/?repo=4GeeksAcademy/vanillajs-hello) or [Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git).
+Start coding a JS/HTML/CSS website in 30 seconds by opening this template using [4Geeks.com provisioning bridge](https://breathecode.herokuapp.com/v1/provisioning/public/container/new?repo=https://github.com/4GeeksAcademy/vanillajs-hello).
 
 ## Before you begin
 
 Install the packages by typing: `npm install`.
 
-
 ### How do I run my website to see live changes?  
-
 
 Type on the command line `$ npm run start` and type localhost on the browser.
 
@@ -36,13 +34,8 @@ Just add the files into the src folder and import the file/variables into your a
 
 ### How do I publish the website?
 
-This boilerplate is 100% compatible with the free GitHub pages hosting. Publish your website by running:
-
-```bash
-$ npm run deploy
-```
-
-Very easy and in just one step!  Push to your __main__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your main branch.
+We have prepared the boilerplate to be compatible with [vercel](https://vercel.com/), very easy and in just one step! 
+You can read more about [deploying on vercel here](https://4geeks.com/docs/start/deploy-vercel).
 
 ### Thank you
 
