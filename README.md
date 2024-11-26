@@ -46,9 +46,10 @@ $ npm run deploy
 ```
 
 Very easy and in just one step!  Push to your __main__ branch and use the free hosting that comes with [GitHub pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages), the project is ready to be published. Remember to choose to run the Github Page from your main branch.
-
+<!-- hide -->
 ### Thank you
 
 This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning) or [CyberSecurity Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/cybersecurity)
 
 You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+<!-- endhide -->
