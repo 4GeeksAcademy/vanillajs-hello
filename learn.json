@@ -1,4 +1,5 @@
 {
+  "autoPlay": false,
   "title": {
     "en": "Vanilla.js Starter Template for beginners",
     "es": "Plantilla Inicial de Vanilla.js para principiantes"
