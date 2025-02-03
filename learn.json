@@ -1,0 +1,16 @@
+{
+  "autoPlay": false,
+  "title": {
+    "en": "Vanilla.js Starter Template for beginners",
+    "es": "Plantilla Inicial de Vanilla.js para principiantes"
+  },
+  "description": {
+    "en": "This is a starter template for Vanilla.js projects. It includes a basic folder structure with separation between CSS, JS and HTML files. It also uses Vite to kickstart your project and it can be deployed to Vercel in just one click",
+    "es": "Este es un template inicial para proyectos en Vanilla.js. Incluye una estructura básica de carpetas con separación entre archivos CSS, JS y HTML. También utiliza Vite para iniciar tu proyecto y puede ser desplegado en Vercel con un solo clic."
+  },
+  "repository": "https://github.com/4GeeksAcademy/vanillajs-hello",
+  "preview": "https://repository-images.githubusercontent.com/130237499/fc593900-78de-11ea-8d19-fb66acf4d7fe",
+  "projectType": "template",
+  "difficulty": "beginner",
+  "technologies": ["HTML", "CSS", "Javascript", "DOM", "VITE", "MODULE BUNDLER"]
+}
