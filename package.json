@@ -13,5 +13,8 @@
   },
   "dependencies": {
     "bootstrap": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
